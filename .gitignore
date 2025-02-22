@@ -25,8 +25,8 @@
 *.DS_Store
 
 # Go-specific files
-*.sum
-*.mod
+# *.sum
+# *.mod
 /go.work
 /go.work.sum
 
