@@ -1,0 +1,35 @@
+body{
+    background-color: white;
+    color: rgb(9, 9, 9);
+}
+/* .home-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+} */
+.home-title-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-container{
+    background-color: whitesmoke;
+}
+
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: black;
+        color: antiquewhite;
+    }
+    .form-container{
+        background-color: rgb(33, 32, 32);
+    }
+    
+}
